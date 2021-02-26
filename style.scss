@@ -38,4 +38,16 @@ body{
     display: flex;
     align-items: center;
 }
- 
+
+desc{
+    color: var(--c-span);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical; 
+        overflow:hidden;
+    
+}
