@@ -10,5 +10,23 @@ body{
     flex-direction: column;
     padding: 50px 240px 50px 240px;
   
-    }
+}
+.button{
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        line-height: 160%;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        height: 60px;
+        padding: 17px 69px 17px 29px;
+        transition: 400ms;
+        text-decoration: none;
+        &:hover{
+            cursor: pointer;
+            
+        }  
     
+}   
+ 
