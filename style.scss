@@ -78,3 +78,100 @@ desc{
         overflow:hidden;
     
 }
+
+.header{
+    margin-top: 42px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+           flex-direction: column;
+    .nav-wrap{
+        
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav{
+      
+        
+        
+        &__img{
+            display: inline-block;
+            padding-top: 12px;
+            margin: 0;
+            margin-right: 121px;
+        }
+        
+
+        &__item{
+                
+                color: var(--c-span);
+                font-family:var(--f-span) ;
+                font-style: normal;
+                font-weight: 500px;
+                font-size: 16px;
+                line-height: 160%;
+                padding-top: 15px;
+                text-decoration: none;
+
+                &:not(:last-of-type){
+                    margin-right: 40px;
+                }
+                
+
+                &:hover{
+                    color: var(--c-genel);
+                    font-family: var(--f-baslik);
+                    font-weight: 900;
+                    cursor: pointer;
+                }
+                
+
+        }
+
+        &__item--active{
+                        color: var(--c-genel);
+                        font-weight: 900;
+                        pointer-events: none;
+
+        }
+                   
+       
+    }
+    .button{
+        
+        margin: 15px;
+        &--color{
+            color: var(--c-genel);
+        }
+        
+        &--bc{
+            background: #FFFFFF;
+        } 
+        
+        &--box-s{
+            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+        }
+        
+        text-align: center;
+        position: relative;
+        letter-spacing: 0.005em;
+
+        &:hover{
+            border: 1px solid #9C69E2;
+        }    
+        
+        &__çizgi{
+            margin-left: 42px;
+            color: #9C69E2;
+            font-size: 30px;
+            &:hover{
+                font-size: 35px;
+            }
+            
+        }
+    }
+        
+} 
+
+
