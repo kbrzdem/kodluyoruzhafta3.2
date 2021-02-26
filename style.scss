@@ -320,7 +320,7 @@ desc{
         padding-bottom: 0px;
         &:hover{
             cursor: pointer;
-            border: 2px solid #68C9BA;
+            border: 1px solid #68C9BA;
         }
         &__img{
             position: absolute;
@@ -343,7 +343,7 @@ desc{
         padding-bottom: 0px;
         &:hover{
             cursor: pointer;
-            border: 2px solid #9C69E2;
+            border: 1px solid #9C69E2;
         }
         &__img{
             position: absolute;
@@ -366,7 +366,7 @@ desc{
         padding-bottom: 0px;
         &:hover{
             cursor: pointer;
-            border: 2px solid #F063B8;
+            border: 1px solid #F063B8;
         }
         &__img{
             position: absolute;
@@ -387,13 +387,13 @@ desc{
         margin-top: 100px;
         &:hover{
             cursor: pointer;
-            border: 2px solid #2D9CDB;
+            border: 1px solid #2D9CDB;
         }
         &__img{
             position: absolute;
             margin-top: 60px;
             right: 0;
-            margin-right: 250px;
+            margin-right: 240px;
         }
     }
 
