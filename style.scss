@@ -8,7 +8,7 @@ body{
     display: flex;
     margin: 0;
     flex-direction: column;
-    padding: 50px 240px 50px 240px;
+    
   
 }
 .button{
@@ -80,6 +80,7 @@ desc{
 }
 
 .header{
+   
     margin-top: 42px;
     width: 100%;
     margin-bottom: 100px;
@@ -220,18 +221,20 @@ desc{
     &__img{
        position: absolute;
        margin-top: -380px;
-        margin-left: 150px;
-        width: 100%;
+        
+       width: 50%;
         object-fit: cover;
         object-position: 50% 15%;
         opacity: 0.6;
+        z-index: -1;
 
     }
 
 }    
 
 .section2{
-    width: 100%;
+    width: 60%;
+    margin-left: 200px;
    background: rgba(240, 99, 184, 0.15);
    border-radius: 50px;
    padding: 0;
